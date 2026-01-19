@@ -76,7 +76,7 @@ const AboutSection = () => {
             </div>
 
             {/* Floating Badge */}
-            <motion.div 
+            <motion.div
               className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-accent text-accent-foreground p-4 sm:p-6 rounded-xl shadow-gold"
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -105,7 +105,7 @@ const AboutSection = () => {
               <span className="axis-gradient-text">Propósito</span>
             </h2>
             <p className="text-primary-foreground/70 text-sm sm:text-base lg:text-lg leading-relaxed mb-4 sm:mb-6">
-              En AXIS Electrical Services, combinamos más de una década de
+              En AXIS Servicios Eléctricos, combinamos más de una década de
               experiencia con tecnología de vanguardia para ofrecer soluciones
               eléctricas que superan los estándares de la industria.
             </p>

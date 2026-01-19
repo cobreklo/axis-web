@@ -155,7 +155,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/10 mt-10 sm:mt-12 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-xs sm:text-sm text-primary-foreground/40">
-            <p className="text-center sm:text-left">© {currentYear} AXIS Electrical Services. Todos los derechos reservados.</p>
+            <p className="text-center sm:text-left">© {currentYear} AXIS Servicios Eléctricos. Todos los derechos reservados.</p>
             <p className="flex items-center gap-2">
               <Zap size={12} className="text-accent" />
               Certificación SEC · Ingeniería de Excelencia

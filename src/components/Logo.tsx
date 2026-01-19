@@ -16,7 +16,7 @@ const sizeClasses = {
 
 const Logo = ({ size = "md", showText = true, className = "" }: LogoProps) => {
   return (
-    <motion.div 
+    <motion.div
       className={`flex items-center gap-2 sm:gap-3 cursor-pointer group ${className}`}
       initial="initial"
       whileHover="hover"
@@ -31,7 +31,7 @@ const Logo = ({ size = "md", showText = true, className = "" }: LogoProps) => {
           }}
           transition={{ duration: 0.3 }}
         />
-        
+
         {/* Logo image */}
         <motion.img
           src={logoAxis}
@@ -44,14 +44,14 @@ const Logo = ({ size = "md", showText = true, className = "" }: LogoProps) => {
           transition={{ duration: 0.5, ease: "easeInOut" }}
         />
       </div>
-      
+
       {showText && (
         <div className="flex flex-col">
           <span className="text-lg sm:text-xl font-bold text-primary-foreground tracking-tight leading-none">
             AXIS
           </span>
           <span className="hidden sm:block text-[10px] sm:text-xs text-accent font-medium tracking-wide">
-            Electrical Services
+            Servicios Eléctricos
           </span>
         </div>
       )}
