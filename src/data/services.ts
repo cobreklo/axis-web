@@ -190,12 +190,12 @@ export const companyStats = [
 ];
 
 export const contactInfo = {
-  address: "Av. Nueva Tajamar 481, Las Condes, Santiago",
-  email: "contacto@axis-electric.cl",
-  phone: "+56 2 2345 6789",
+  address: "", // Hidden as per request
+  email: "axiselectric.cl@gmail.com",
+  phone: "+56 9 3687 5311",
   socialMedia: {
     linkedin: "https://linkedin.com/company/axis-electric",
-    instagram: "https://instagram.com/axis_electric",
+    instagram: "https://instagram.com/axiselectric.cl",
     facebook: "https://facebook.com/axiselectric"
   }
 };

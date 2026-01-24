@@ -65,10 +65,12 @@ const Footer = () => {
           >
             <h4 className="font-semibold mb-4 text-accent text-sm uppercase tracking-wider">Contacto</h4>
             <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-sm text-primary-foreground/60">
-                <MapPin size={16} className="flex-shrink-0 mt-0.5 text-accent" />
-                <span className="leading-relaxed">{contactInfo.address}</span>
-              </li>
+              {contactInfo.address && (
+                <li className="flex items-start gap-3 text-sm text-primary-foreground/60">
+                  <MapPin size={16} className="flex-shrink-0 mt-0.5 text-accent" />
+                  <span className="leading-relaxed">{contactInfo.address}</span>
+                </li>
+              )}
               <li className="flex items-center gap-3 text-sm text-primary-foreground/60">
                 <Mail size={16} className="flex-shrink-0 text-accent" />
                 <a
